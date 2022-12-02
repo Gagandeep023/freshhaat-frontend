@@ -1,0 +1,58 @@
+{
+    "headers":
+    [
+        
+       "Vegetables name",
+        "Quantity",
+        "Product ID Number",
+        "Farmer Name",
+        "Purchase",
+        "Mobile Number"
+    ],
+    "rows":
+    [
+        {
+            
+            "vegetables_name":"brinjal",
+            "quantity":200,
+            "product_id":121,
+            "farmer_name":"ram",
+            "purchase":150,
+            "mobile_number":"982711111"
+
+        },
+        {
+            "Vegetables_name":"tomato",
+            "quantity": 300,
+            "product_id":221,
+            "farmer_name":"shyam",
+            "purchase": 200,
+            "mobile_number":"982711521"
+
+        },
+        {
+            "Vegetables_name":"potato",
+            "quantity":400,
+            "product_id":321,
+            "farmer_name":"lal",
+            "purchase":350,
+            "mobile_number":"982711921"
+        },
+        {
+            "Vegetables_name":"ladyfinger",
+            "quantity": 500,
+            "product_id":421,
+            "farmern_name":"tinku",
+            "purchase":500,
+            "mobile_number":"9827167211"
+        },
+        {
+            "Vegetables_name":"onion",
+            "quantity":600,
+            "product_id":521,
+            "farmer_name":"minku",
+            "purchase":450,
+            "mobile_number": "9827117511"
+        }
+    ]
+}

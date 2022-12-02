@@ -1,0 +1,56 @@
+{
+    "headers":
+    [
+        "Vegetables name",
+        "Quantity",
+        "Product ID Number",
+        "Farmer Name",
+        "Purchase",
+        "Mobile Number"
+    ],
+    "rows":
+    [
+        [
+            "brinjal",
+            200,
+            121,
+            "ram",
+            150,
+            982711111
+
+        ],
+        [
+            "tomato",
+            300,
+            221,
+            200,
+            "shyam",
+            982711521
+
+        ],
+        [
+            "potato",
+            400,
+            321,
+            "lal",
+            350,
+            982711921
+        ],
+        [
+            "ladyfinger",
+            500,
+            421,
+            "tinku",
+            500,
+            9827167211
+        ],
+        [
+            "onion",
+            600,
+            521,
+            "minku",
+            450,
+            9827117511
+        ]
+    ]
+}

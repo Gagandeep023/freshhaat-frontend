@@ -1,0 +1,113 @@
+body
+{
+    background-color: #f2f2f2;
+    margin: px 20px 30px 20px;
+}
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10px;
+  }
+input[type=text],
+input[type=number],
+input[type=datetime-local]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Paragraph alignment for responsive*/
+p
+{
+    margin-left: 200px;
+    text-align: center;
+    font-size: 18px;
+    padding: auto;
+}
+
+h1
+{
+ text-align: center;
+}
+
+
+button
+{
+    background-color: #121212;
+    color: white;
+    padding: 10px 50px;
+    margin-top: 20px;
+    padding-left: 100px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+   
+}
+
+.button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+
+
+button:hover
+{
+    opacity: 0.8;
+}
+
+.time
+{
+    margin-top: 10px;
+}
+
+
+.row
+{
+     /* margin-left: 150px; */
+    padding-left:0px 100px 0 100px;
+    display: flex;
+    width: 100%;
+   
+}
+
+
+
+
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+ 
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+  table {
+   margin-right: 100px;
+  }
+}
+
+
