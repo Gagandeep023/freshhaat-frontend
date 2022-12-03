@@ -21,25 +21,27 @@ getapi(api_url);
 function show(data) {
     var tab = 
         `<tr>
-          <th>Vegetables name</th>
-          <th>Quantity</th>
-          <th>Farmer Name</th>
+          <th>Product name</th>
+          <th>Product Image</th>
           <th>Farm Address</th>
-          <th>Mobile Number</th>
           <th>Crop Time</th>
+          <th>Go to product</th>
+
          </tr>`;
-    
-    // Loop to access all rows 
+
+
     for (let r of data) {
         tab += `<tr> 
     <td>${r.product_name} </td>
-    <td>${r.quantity}</td>
-    <td>${r.farm_name}</td> 
+    <td><img src="${r.product_image}"/></td>
     <td>${r.farm_address}</td>  
-    <td>${r.farm_contact}</td>  
     <td>${r.crop_time}</td>
-</tr>`;
+    <td><input onclick="location.href = 'http://127.0.0.1:5501/product-details.html?productId=${r.product_id}';" class='btn btn-info' type='button' value='Details'/></td>
+
+</tr>`; 
     }
+
+    
     // Setting innerHTML as tab variable
     document.getElementById("table").innerHTML = tab;
     // console.log(tab)

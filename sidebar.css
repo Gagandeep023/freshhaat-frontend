@@ -49,11 +49,16 @@
    color: white;
 }
 
-  #table td,
-  #table th
+  #table img
    {      
-     padding: 15px 20px;
+     width: 100px;
+     height: 100px;
     }
+    #table td,
+    #table th
+     {      
+       padding: 15px 20px;
+      }
    #table tbody tr:nth-of-type(even) 
    {
        background: #eeeeee;
